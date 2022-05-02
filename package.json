@@ -11,14 +11,14 @@
   "name": "api",
   "version": "1.0.0",
   "main": "index.js",
-  
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
-  
+  "description": "",
   "engines": {
     "node": "14.18.1"
   }
